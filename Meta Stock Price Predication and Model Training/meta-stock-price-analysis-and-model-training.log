@@ -1,0 +1,45 @@
+8.5s 1 There are 633 rows and 7 columns
+8.6s 2 <class 'pandas.core.frame.DataFrame'>
+8.6s 3 RangeIndex: 633 entries, 0 to 632
+8.6s 4 Data columns (total 7 columns):
+8.6s 5 #   Column     Non-Null Count  Dtype
+8.6s 6 ---  ------     --------------  -----
+8.6s 7 0   Date       633 non-null    object
+8.6s 8 1   Open       633 non-null    float64
+8.6s 9 2   High       633 non-null    float64
+8.6s 10 3   Low        633 non-null    float64
+8.6s 11 4   Close      633 non-null    float64
+8.6s 12 5   Adj Close  633 non-null    float64
+8.6s 13 6   Volume     633 non-null    int64
+8.6s 14 dtypes: float64(5), int64(1), object(1)
+8.6s 15 memory usage: 34.7+ KB
+9.5s 16 /tmp/ipykernel_18/773446268.py:2: UserWarning:
+9.5s 17 
+9.5s 18 Parsing dates in %d/%m/%Y format when dayfirst=False (the default) was specified. Pass `dayfirst=True` or specify a format to silence this warning.
+9.5s 19 
+10.0s 20 /opt/conda/lib/python3.10/site-packages/plotly/express/_core.py:2065: FutureWarning:
+10.0s 21 
+10.0s 22 When grouping with a length-1 list-like, you will need to pass a length-1 tuple to get_group in a future version of pandas. Pass `(name,)` instead of `name` to silence this warning.
+10.0s 23 
+12.1s 24 Linear Regression:
+12.1s 25 Mean Squared Error (MSE): 0.011925979060590942
+12.1s 26 Root Mean Squared Error (RMSE): 0.10920613105769722
+12.1s 27 Mean Absolute Error (MAE): 0.07657978387433403
+12.1s 28 R-squared (R2): 0.9999989909096554
+12.1s 29 ------------------------------------
+12.3s 30 Random Forest:
+12.3s 31 Mean Squared Error (MSE): 2.359883338697512
+12.3s 32 Root Mean Squared Error (RMSE): 1.536191179084658
+12.3s 33 Mean Absolute Error (MAE): 0.9242362886614359
+12.3s 34 R-squared (R2): 0.9998003236900472
+12.3s 35 ------------------------------------
+15.4s 36 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+15.4s 37 warn(
+15.4s 38 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+15.4s 39 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+16.0s 40 [NbConvertApp] Writing 171113 bytes to __notebook__.ipynb
+17.9s 41 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+17.9s 42 warn(
+17.9s 43 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+18.0s 44 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+19.1s 45 [NbConvertApp] Writing 434360 bytes to __results__.html

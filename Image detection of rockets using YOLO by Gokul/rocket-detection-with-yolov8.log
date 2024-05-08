@@ -1,0 +1,13 @@
+1.8s 1 /opt/conda/lib/python3.10/site-packages/traitlets/traitlets.py:2930: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+1.8s 2 warn(
+1.8s 3 [NbConvertApp] WARNING | Config option `kernel_spec_manager_class` not recognized by `NbConvertApp`.
+1.9s 4 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+1.9s 5 /opt/conda/lib/python3.10/site-packages/nbformat/__init__.py:93: MissingIDFieldWarning: Code cell is missing an id field, this will become a hard error in future nbformat versions. You may want to use `normalize()` on your notebooks before validations (available since nbformat 5.1.4). Previous versions of nbformat are fixing this issue transparently, and will stop doing so in the future.
+1.9s 6 validate(nb)
+3.3s 7 [NbConvertApp] Support files will be in __results___files/
+3.3s 8 [NbConvertApp] Making directory __results___files
+3.3s 9 [NbConvertApp] Making directory __results___files
+3.3s 10 [NbConvertApp] Making directory __results___files
+3.3s 11 [NbConvertApp] Making directory __results___files
+3.3s 12 [NbConvertApp] Making directory __results___files
+3.3s 13 [NbConvertApp] Writing 549621 bytes to __results__.html

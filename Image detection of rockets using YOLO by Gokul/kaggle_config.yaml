@@ -1,0 +1,7 @@
+path: /kaggle/input/Dataset/Dataset/train  # dataset root dir
+train: Rocket/images  # train images (relative to 'path')
+val: Rocket/images  # val images (relative to 'path')
+
+# Classes
+names:
+  0: Rocket
